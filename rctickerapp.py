@@ -6,8 +6,7 @@ from io import BytesIO
 
 st.set_page_config(page_title="RC Risk Monitor", layout="wide")
 
-st.title("RC Risk Monitor")
-st.write("with tickers")
+st.title("RC Risk Monitor (ticker version)")
 
 isin_input = st.text_area(
     "Enter ISIN codes separated by commas",
