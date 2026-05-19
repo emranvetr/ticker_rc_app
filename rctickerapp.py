@@ -10,7 +10,7 @@ st.title("RC Risk Monitor (ticker version)")
 
 isin_input = st.text_area(
     "Enter ISIN codes separated by commas",
-    placeholder="CH1234567890, CH0987654321"
+    placeholder="Example: CH1234567890, CH0987654321"
 )
 
 def create_excel(df):
